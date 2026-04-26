@@ -25,5 +25,8 @@ This script demonstrates a Python-based membership inference workflow using shad
 ### 4. `Python_fairness_baseline_subgroup_metrics_sample.py`
 This script demonstrates a baseline fairness-style evaluation workflow in Python. It fits a classification model, computes overall performance, and compares subgroup metrics such as accuracy, AUC, log loss, and positive prediction rates across demographic groups.
 
+### 5. `Python_pgd_evasion_audit_sample.py`
+This script demonstrates a robustness audit for a binary classifier under projected gradient descent (PGD) style adversarial perturbations. It evaluates how accuracy, AUC, and prediction stability degrade as perturbation strength increases.
+
 ## Note
 These samples were adapted from individual graduate coursework and cleaned for portfolio presentation. They are shared to demonstrate coding style, statistical reasoning, and reproducible analysis in R and Python.
