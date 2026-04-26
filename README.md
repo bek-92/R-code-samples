@@ -1,6 +1,6 @@
-# R Code Samples
+# Code Samples
 
-This repository contains selected R code samples adapted from graduate coursework to demonstrate quantitative analysis, statistical modeling, diagnostic testing, and reproducible analytical workflows.
+This repository contains selected R and Python code samples adapted from graduate coursework to demonstrate quantitative analysis, statistical modeling, diagnostic testing, machine learning evaluation, and reproducible analytical workflows.
 
 ## Files
 
@@ -19,6 +19,8 @@ This script fits a logistic regression model and evaluates classification perfor
 - confusion matrix analysis
 - false positive and false negative rates
 - ROC curve and AUC
+### 3. `Python_membership_inference_model_evaluation_sample.py`
+This script demonstrates a Python-based membership inference workflow using shadow models and a meta-classifier. It compares privacy leakage risk across two target classifiers using confidence scores and ROC/AUC analysis.
 
 ## Note
-These samples were adapted from individual graduate coursework and cleaned for portfolio presentation. They are shared to demonstrate coding style, statistical reasoning, and reproducible analysis in R.
+These samples were adapted from individual graduate coursework and cleaned for portfolio presentation. They are shared to demonstrate coding style, statistical reasoning, and reproducible analysis in R and Python.
